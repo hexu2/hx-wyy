@@ -1,8 +1,6 @@
 import { CoreModule } from './core/core.module';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import { NZ_I18N, zh_CN } from 'ng-zorro-antd';
-
 
 @NgModule({
   declarations: [
@@ -11,7 +9,6 @@ import { NZ_I18N, zh_CN } from 'ng-zorro-antd';
   imports: [
     CoreModule
   ],
-  providers: [{ provide: NZ_I18N, useValue: zh_CN }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
