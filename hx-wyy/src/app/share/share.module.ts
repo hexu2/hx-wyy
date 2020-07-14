@@ -13,9 +13,9 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
     FormsModule
   ],
   exports:[
+    CommonModule,
     NgZorroAntdModule,
-    FormsModule,
-    CommonModule
+    FormsModule
   ]
 })
 export class ShareModule { }
